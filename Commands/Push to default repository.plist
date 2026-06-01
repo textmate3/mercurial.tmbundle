@@ -12,7 +12,7 @@ export WorkPath="$TM_DIRECTORY"
 export TM_HG
 
 cd "$TM_DIRECTORY"
-ruby18 -- "${TM_BUNDLE_SUPPORT}/hg_push.rb"
+ruby -- "${TM_BUNDLE_SUPPORT}/hg_push.rb"
 </string>
 	<key>input</key>
 	<string>none</string>

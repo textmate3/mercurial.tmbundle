@@ -8,7 +8,7 @@
 	<string>#!/usr/bin/env bash
 
 "$TM_HG" annotate -nud "$TM_FILEPATH" 2&gt;&amp;1 \
-|ruby18 -- "${TM_BUNDLE_SUPPORT}/format_annotate.rb"</string>
+|ruby -- "${TM_BUNDLE_SUPPORT}/format_annotate.rb"</string>
 	<key>input</key>
 	<string>none</string>
 	<key>inputFormat</key>

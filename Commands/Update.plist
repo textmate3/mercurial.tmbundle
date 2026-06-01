@@ -9,7 +9,7 @@
 
 export WorkPath="$TM_DIRECTORY"
 cd "$TM_DIRECTORY"
-ruby18 -- "${TM_BUNDLE_SUPPORT}/hg_update.rb"
+ruby -- "${TM_BUNDLE_SUPPORT}/hg_update.rb"
 </string>
 	<key>input</key>
 	<string>none</string>
